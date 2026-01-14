@@ -5,8 +5,8 @@ from datetime import datetime
 # ======================
 # KONFIGURASI
 # ======================
-BOT_TOKEN = "8276760222:AAHj7NZB4zZ1knlISmY2VG-3z65PKjoj1Cg"
-CHAT_ID = "5847068376"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 RSS_FEEDS = {
     "CNBC": "https://www.cnbcindonesia.com/market/rss",
