@@ -4,17 +4,26 @@ import requests
 from datetime import datetime
 
 # ======================
-# KONFIGURASI
+# KONFIGURASI (AMBIL DARI GITHUB SECRETS)
 # ======================
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
+if not BOT_TOKEN or not CHAT_ID:
+    raise ValueError("BOT_TOKEN atau CHAT_ID tidak terbaca dari Secrets")
+
+# ======================
+# SUMBER BERITA
+# ======================
 RSS_FEEDS = {
     "CNBC": "https://www.cnbcindonesia.com/market/rss",
     "Kontan": "https://investasi.kontan.co.id/rss",
     "Reuters": "https://www.reuters.com/rssFeed/asia-pacificNews"
 }
 
+# ======================
+# KATA KUNCI
+# ======================
 KEYWORDS_NEGATIVE = [
     "suspend", "suspensi", "bea ekspor", "suku bunga naik",
     "rights issue", "private placement", "rugi",
@@ -34,76 +43,72 @@ WATCHLIST = {
 }
 
 # ======================
+# FUNGSI KIRIM PESAN
+# ======================
 def send_message(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    requests.post(url, data={
-        "chat_id": CHAT_ID,
-        "text": text,
-        "parse_mode": "HTML"
-    })
+    response = requests.post(
+        url,
+        data={
+            "chat_id": CHAT_ID,
+            "text": text,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True
+        },
+        timeout=10
+    )
+    response.raise_for_status()
 
+# ======================
+# KLASIFIKASI BERITA
 # ======================
 def classify_news(title):
-    title_lower = title.lower()
-
+    t = title.lower()
     for word in KEYWORDS_NEGATIVE:
-        if word in title_lower:
+        if word in t:
             return "🚨 ALERT NEGATIF"
-
     for word in KEYWORDS_POSITIVE:
-        if word in title_lower:
+        if word in t:
             return "🟢 ALERT POSITIF"
-
     return None
 
-# ======================
 def detect_sector(title):
     impacted = []
+    t = title.lower()
     for sector, stocks in WATCHLIST.items():
         for stock in stocks:
-            if stock.lower() in title.lower():
+            if stock.lower() in t:
                 impacted.append(sector)
     return impacted
 
+# ======================
+# CEK BERITA
 # ======================
 def check_news():
     for source, url in RSS_FEEDS.items():
         feed = feedparser.parse(url)
         for entry in feed.entries[:3]:
             status = classify_news(entry.title)
-            if status:
-                sectors = detect_sector(entry.title)
-                sector_text = ", ".join(sectors) if sectors else "Makro / Umum"
+            if not status:
+                continue
 
-                message = f"""
-{status}
-📰 Sumber: {source}
-📌 Judul: {entry.title}
+            sectors = detect_sector(entry.title)
+            sector_text = ", ".join(sectors) if sectors else "Makro / Umum"
 
-🎯 Sektor: {sector_text}
-🔗 {entry.link}
+            message = (
+                f"{status}\n"
+                f"📰 Sumber: {source}\n"
+                f"📌 {entry.title}\n\n"
+                f"🎯 Sektor: {sector_text}\n"
+                f"🔗 {entry.link}\n\n"
+                f"⏰ {datetime.now().strftime('%d-%m-%Y %H:%M')}"
+            )
 
-⏰ {datetime.now().strftime('%d-%m-%Y %H:%M')}
-"""
-                send_message(message)
+            send_message(message)
 
 # ======================
-def daily_summary():
-    message = f"""
-📊 RINGKASAN HARIAN
-Tanggal: {datetime.now().strftime('%d-%m-%Y')}
-
-Fokus hari ini:
-- Bank & IHSG
-- Komoditas (CPO, Batubara)
-- Rupiah & kebijakan global
-
-Tetap disiplin:
-✅ Cut loss cepat
-❌ Hindari FOMO
-"""
-    send_message(message)
-
+# MAIN
 # ======================
 if __name__ == "__main__":
+    send_message("✅ BOT AKTIF - TEST MESSAGE")
     check_news()
