@@ -25,9 +25,20 @@ RSS_FEEDS = {
 # KATA KUNCI
 # ======================
 KEYWORDS_NEGATIVE = [
-    "suspend", "suspensi", "bea ekspor", "suku bunga naik",
-    "rights issue", "private placement", "rugi",
-    "downgrade", "utang", "rupiah melemah", "hawkish"
+    "melemah",
+    "turun",
+    "tertekan",
+    "waspada",
+    "ketidakpastian",
+    "hawkish",
+    "tekanan jual",
+    "risk off",
+    "aksi jual",
+    "foreign sell",
+    "outflow",
+    "bearish",
+    "negatif",
+    "penurunan"
 ]
 
 KEYWORDS_POSITIVE = [
@@ -72,6 +83,10 @@ def classify_news(title):
             return "🟢 ALERT POSITIF"
     return None
 
+def is_market_news(title):
+    keywords = ["ihsg", "saham", "pasar", "bursa", "bank", "rupiah"]
+    return any(k in title.lower() for k in keywords)
+
 def detect_sector(title):
     impacted = []
     t = title.lower()
@@ -89,14 +104,16 @@ def check_news():
         feed = feedparser.parse(url)
         for entry in feed.entries[:3]:
             status = classify_news(entry.title)
-            if not status:
+            if not status and not is_market_news(entry.title):
                 continue
+
+            label = status if status else "🟡 INFO PASAR"
 
             sectors = detect_sector(entry.title)
             sector_text = ", ".join(sectors) if sectors else "Makro / Umum"
 
             message = (
-                f"{status}\n"
+                f"{label}\n"
                 f"📰 Sumber: {source}\n"
                 f"📌 {entry.title}\n\n"
                 f"🎯 Sektor: {sector_text}\n"
@@ -110,5 +127,4 @@ def check_news():
 # MAIN
 # ======================
 if __name__ == "__main__":
-    send_message("✅ BOT AKTIF - TEST MESSAGE")
     check_news()
