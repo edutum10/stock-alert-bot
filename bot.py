@@ -11,6 +11,12 @@ from datetime import datetime
 import yfinance as yf
 import pandas as pd
 
+feedparser.USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/120.0.0.0 Safari/537.36"
+)
+
 
 # =========================================================
 # ENV CONFIG (DARI GITHUB SECRETS)
@@ -238,7 +244,17 @@ RSS_FEEDS = {
 
 def run_bot():
     for source, url in RSS_FEEDS.items():
-        feed = feedparser.parse(url)
+        try:
+            feed = feedparser.parse(url)
+
+            # jika RSS error / kosong
+            if not feed.entries:
+                print(f"[WARN] RSS kosong atau diblok: {source}")
+                continue
+
+        except Exception as e:
+            print(f"[ERROR] Gagal ambil RSS {source}: {e}")
+            continue
 
         for entry in feed.entries[:5]:
             summary = entry.get("summary", "")
@@ -271,7 +287,6 @@ def run_bot():
                 )
 
                 send_message(message)
-
 
 if __name__ == "__main__":
     run_bot()
