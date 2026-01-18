@@ -1,0 +1,970 @@
+ticker,sector,aliases
+AADI,BATUBARA,Adaro Andalan|Adaro Andalan Indonesia
+AALI,PANGAN,Astra Agro|Astra Agro Lestari
+ABBA,PENERBITAN,Mahaka Media
+ABDA,ASURANSI,Asuransi Bina|Asuransi Bina Dana Arta
+ABMM,BATUBARA,Abm Investama
+ACES,RUMAHTANGGA,Ace Hardware|Ace Hardware Indonesia
+ACRO,TEKSTIL,Samcro Hyosung|Samcro Hyosung Adilestari
+ACST,KONSTRUKSI,Acset Indonusa
+ADCP,REALESTATE,Adhi Commuter|Adhi Commuter Properti
+ADES,MINUMAN,Akasha Wira|Akasha Wira International
+ADHI,KONSTRUKSI,Adhi Karya
+ADMF,PEMBIAYAAN,Adira Dinamika|Adira Dinamika Multi Finance
+ADMG,KIMIA,Polychem Indonesia
+ADMR,BATUBARA,Adaro Minerals|Adaro Minerals Indonesia
+ADRO,BATUBARA,Adaro Energi|Adaro Energi Indonesia
+AEGS,OTOMOTIF,Anugerah Spareparts|Anugerah Spareparts Sejahtera
+AGAR,BUDIDAYA,Asia Sejahtera|Asia Sejahtera Mina
+AGII,KIMIA,Aneka Gas|Aneka Gas Industri
+AGRO,BANK,Bank Raya|Bank Raya Indonesia
+AGRS,BANK,Bank Ibk|Bank Ibk Indonesia
+AHAP,ASURANSI,Asuransi Harta|Asuransi Harta Aman Pratama
+AIMS,BATUBARA,Akbar Indo|Akbar Indo Makmur Stimec
+AISA,MAKANAN,Fks Food|Fks Food Sejahtera
+AKKU,HOTEL,Anugerah Kagum|Anugerah Kagum Karya Utama
+AKPI,KIMIA,Argha Karya|Argha Karya Prima Industry
+AKRA,TAMBANG,Akr Corporindo
+AKSI,LOGISTIK,Mineral Sumberdaya|Mineral Sumberdaya Mandiri
+ALDO,PLASTIK,Alkindo Naratama
+ALII,BATUBARA,Ancara Logistics|Ancara Logistics Indonesia
+ALKA,LOGAM,Alakasa Industrindo
+ALMI,LOGAM,Alumindo Light|Alumindo Light Metal Industry
+ALTO,MINUMAN,Tri Banyan|Tri Banyan Tirta
+AMAG,ASURANSI,Asuransi Multi|Asuransi Multi Artha Guna
+AMAN,REALESTATE,Makmur Berkah|Makmur Berkah Amanda
+AMAR,BANK,Bank Amar|Bank Amar Indonesia
+AMFG,BANGUNAN,Asahimas Flat|Asahimas Flat Glass
+AMIN,MESIN,Ateliers Mecaniques|Ateliers Mecaniques D'Indonesie
+AMMN,TEMBAGA,Amman Mineral|Amman Mineral Internasional
+AMMS,BUDIDAYA,Agung Menjangan|Agung Menjangan Mas
+AMOR,INVESTASI,Ashmore Asset|Ashmore Asset Management Indonesia
+AMRT,SUPERMARKET,Sumber Alfaria|Sumber Alfaria Trijaya
+ANDI,PANGAN,Andira Agro
+ANJT,PANGAN,Austindo Nusantara|Austindo Nusantara Jaya
+ANTM,TAMBANG,Aneka Tambang
+APEX,TAMBANG,Apexindo Pratama|Apexindo Pratama Duta
+APIC,INVESTASI,Pacific Strategic|Pacific Strategic Financial
+APII,MESIN,Arita Prima|Arita Prima Indonesia
+APLI,KIMIA,Asiaplast Industries
+APLN,REALESTATE,Agung Podomoro|Agung Podomoro Land
+ARCI,EMAS,Archi Indonesia
+AREA,SOFTWARE,Dunia Virtual|Dunia Virtual Online
+ARGO,TEKSTIL,Argo Pantes
+ARII,BATUBARA,Atlas Resources
+ARKA,MESIN,Arkha Jayanti|Arkha Jayanti Persada
+ARKO,LISTRIK,Arkora Hydro|Arkora Hydro Ptt
+ARMY,REALESTATE,Armidian Karyatama
+ARNA,BANGUNAN,Arwana Citramulia
+ARTA,HOTEL,Arthavest
+ARTI,TAMBANG,Ratu Prabu|Ratu Prabu Energi
+ARTO,BANK,Bank Jago
+ASBI,ASURANSI,Asuransi Bintang
+ASDM,ASURANSI,Asuransi Dayin|Asuransi Dayin Mitra
+ASGR,KONSULTASI,Astra Graphia
+ASHA,BUDIDAYA,Cilacap Samudera|Cilacap Samudera Fishing Industry
+ASII,MULTISEKTOR,Astra International
+ASJT,ASURANSI,Asuransi Jasa|Asuransi Jasa Taina
+ASLC,OTOMOTIF,Autopedia Sukses|Autopedia Sukses Lestari
+ASLI,KONSTRUKSI,Asri Karya|Asri Karya Lestari
+ASMI,ASURANSI,Asuransi Maximus|Asuransi Maximus Graha Persada
+ASPI,REALESTATE,Andalan Sakti|Andalan Sakti Primaindo
+ASPR,PLASTIK,Asia Pramulia
+ASRI,REALESTATE,Alam Sutera|Alam Sutera Realty
+ASRM,ASURANSI,Asuransi Ramayana
+ASSA,TRANSPORTASI,Adi Sarana|Adi Sarana Armada
+ATAP,REALESTATE,Trimitra Prawara|Trimitra Prawara Goldland
+ATIC,TEKNOLOGI,Anabatic Technologies
+ATLA,TAMBANG,Atlantis Subsea|Atlantis Subsea Indonesia
+AUTO,OTOMOTIF,Astra Otoparts
+AVIA,KIMIA,Avia Avian
+AWAN,INTERNET,Era Digital|Era Digital Media
+AXIO,KOMPUTER,Tera Data|Tera Data Indonusa
+AYAM,BUDIDAYA,Janu Putra|Janu Putra Sejahtera
+AYLS,MATERIAL,Agro Yasa|Agro Yasa Lestari
+BABP,BANK,Bank Mnc|Bank Mnc Internasional
+BABY,TEKSTIL,Multitrend Indo
+BACA,BANK,Bank Capital|Bank Capital Indonesia
+BAIK,RUMAHMAKAN,Bersama Mencapai|Bersama Mencapai Puncak
+BAJA,LOGAM,Saranacentral Bajatama
+BALI,TELEKOMUNIKASI,Bali Towerindo|Bali Towerindo Sentra
+BANK,BANK,Bank Aladin|Bank Aladin Syariah
+BAPA,REALESTATE,Bekasi Asri|Bekasi Asri Pemula
+BAPI,REALESTATE,Bhakti Agung|Bhakti Agung Propertindo
+BATA,SEPATU,Sepatu Bata
+BATR,MATERIAL,Benteng Api|Benteng Api Technic
+BAUT,RUMAHTANGGA,Mitra Angkasa|Mitra Angkasa Sejahtera
+BAYU,TRAVEL,Bayu Buana
+BBCA,BANK,Bank Central|Bank Central Asia
+BBHI,BANK,Allo Bank|Allo Bank Indonesia
+BBKP,BANK,Bank Kb|Bank Kb Bukopin
+BBLD,PEMBIAYAAN,Buana Finance
+BBMD,BANK,Bank Mestika|Bank Mestika Dharma
+BBNI,BANK,Bank Negara|Bank Negara Indonesia
+BBRI,BANK,Bank Rakyat|Bank Rakyat Indonesia
+BBRM,BATUBARA,Pelayaran Nasional|Pelayaran Nasional Bina Buana Ray
+BBSI,BANK,Bank Bisnis|Bank Bisnis Internasional
+BBSS,REALESTATE,Bumi Benowo|Bumi Benowo Sukses Sejahtera
+BBTN,BANK,Bank Tabungan|Bank Tabungan Negara
+BBYB,BANK,Bank Neo|Bank Neo Commerce
+BCAP,INVESTASI,Mnc Kapital|Mnc Kapital Indonesia
+BCIC,BANK,Bank Jtrust|Bank Jtrust Indonesia
+BCIP,REALESTATE,Bumi Citra|Bumi Citra Permai
+BDKR,KONSTRUKSI,Berdikari Pondasi|Berdikari Pondasi Perkasa
+BDMN,BANK,Bank Danamon|Bank Danamon Indonesia
+BEBS,MATERIAL,Berkah Beton|Berkah Beton Sadaya
+BEEF,MAKANAN,Estika Tata|Estika Tata Tiara
+BEER,BEER,Jobubu Jarum|Jobubu Jarum Minahasa
+BEKS,BANK,Bank Pembangunan|Bank Pembangunan Daerah Banten
+BELI,INTERNET,Global Digital|Global Digital Niaga
+BELL,TEKSTIL,Trisula Textile|Trisula Textile Industries
+BESS,BATUBARA,Batulicin Nusantara|Batulicin Nusantara Maritim
+BEST,REALESTATE,Bekasi Fajar|Bekasi Fajar Industrial Estate
+BFIN,PEMBIAYAAN,Bfi Finance|Bfi Finance Indonesia
+BGTG,BANK,Bank Ganesha
+BHAT,ASURANSI,Bhakti Multi|Bhakti Multi Artha
+BHIT,MULTISEKTOR,Mnc Investama
+BIKA,REALESTATE,Binakarya Jaya|Binakarya Jaya Abadi
+BIKE,OLAHRAGA,Sepeda Bersama|Sepeda Bersama Indonesia
+BIMA,SEPATU,Primarindo Asia|Primarindo Asia Infrastructure
+BINA,BANK,Bank Ina|Bank Ina Perdana
+BINO,KANTORAN,Perma Plasindo
+BIPI,TAMBANG,Astrindo Nusantara|Astrindo Nusantara Infrastruktur
+BIPP,REALESTATE,Bhuwanatala Indah|Bhuwanatala Indah Permai
+BIRD,TRANSPORTASI,Blue Bird
+BISI,PANGAN,Bisi International
+BJBR,BANK,Bank Pmbngn|Bank Pmbngn Daerh Jawa Brt Dn Btn
+BJTM,BANK,Bank Pembangunan|Bank Pembangunan Daerah Jawa Timr
+BKDP,REALESTATE,Bukit Darmo|Bukit Darmo Property
+BKSL,REALESTATE,Sentul City
+BKSW,BANK,Bank Qnb|Bank Qnb Indonesia
+BLES,MATERIAL,Superior Prima|Superior Prima Sukses
+BLOG,LOGISTIK,Trimitra Trans|Trimitra Trans Persada
+BLTA,LOGISTIK,Berlian Laju|Berlian Laju Tanker
+BLTZ,REKREASI,Graha Layar|Graha Layar Prima
+BLUE,KANTORAN,Berkah Prima|Berkah Prima Perkasa
+BMAS,BANK,Bank Maspion|Bank Maspion Indonesia
+BMBL,BIMBEL,Lavender Bina|Lavender Bina Cendikia
+BMHS,KESEHATAN,Bundamedik
+BMRI,BANK,Bank Mandiri
+BMSR,KIMIA,Bintang Mitra|Bintang Mitra Semestaraya
+BMTR,PERIKLANAN,Global Mediacom
+BNBA,BANK,Bank Bumi|Bank Bumi Arta
+BNBR,MULTISEKTOR,Bakrie &|Bakrie & Brothers
+BNGA,BANK,Bank Cimb|Bank Cimb Niaga
+BNII,BANK,Bank Maybank|Bank Maybank Indonesia
+BNLI,BANK,Bank Permata
+BOAT,TAMBANG,Newport Marine|Newport Marine Services
+BOBA,MAKANAN,Formosa Ingredient|Formosa Ingredient Factory
+BOGA,OTOMOTIF,Bintang Oto|Bintang Oto Global
+BOLA,REKREASI,Bali Bintang|Bali Bintang Sejahtera
+BOLT,OTOMOTIF,Garuda Metalindo
+BOSS,BATUBARA,Borneo Olah|Borneo Olah Sarana Sukses
+BPFI,PEMBIAYAAN,Batavia Prosperindo|Batavia Prosperindo Finance
+BPII,INVESTASI,Batavia Prosperindo|Batavia Prosperindo Internasional
+BPTR,TRANSPORTASI,Batavia Prosperindo|Batavia Prosperindo Trans
+BRAM,BAN,Indo Kordsa
+BREN,LISTRIK,Barito Renewables|Barito Renewables Energi
+BRIS,BANK,Bank Syariah|Bank Syariah Indonesia
+BRMS,TAMBANG,Bumi Resources|Bumi Resources Minerals
+BRNA,PLASTIK,Berlina
+BRPT,KIMIA,Barito Pacific
+BRRC,MAKANAN,Raja Roti|Raja Roti Cemerlang
+BSBK,REALESTATE,Wulandari Bangun|Wulandari Bangun Laksana
+BSDE,REALESTATE,Bumi Serpong|Bumi Serpong Damai
+BSIM,BANK,Bank Sinarmas
+BSML,BATUBARA,Bintang Samudera|Bintang Samudera Mandiri Lines
+BSSR,BATUBARA,Baramulti Suksessarana
+BSWD,BANK,Bank Of|Bank Of India Indonesia
+BTEK,PANGAN,Bumi Teknokultura|Bumi Teknokultura Unggul
+BTEL,TELEKOMUNIKASI,Bakrie Telecom
+BTON,LOGAM,Betonjaya Manunggal
+BTPN,BANK,Bank Btpn
+BTPS,BANK,Bank Btpn|Bank Btpn Syariah
+BUAH,MAKANAN,Segar Kumala|Segar Kumala Indonesia
+BUDI,MAKANAN,Budi Starch|Budi Starch & Sweetener
+BUKA,INTERNET,Bukalapakcom
+BUKK,KONSTRUKSI,Bukaka Teknik|Bukaka Teknik Utama
+BULL,TAMBANG,Buana Lintas|Buana Lintas Lautan
+BUMI,BATUBARA,Bumi Resources
+BUVA,HOTEL,Bukit Uluwatu|Bukit Uluwatu Villa
+BVIC,BANK,Bank Victoria|Bank Victoria International
+BWPT,PANGAN,Eagle High|Eagle High Plantations
+BYAN,BATUBARA,Bayan Resources
+CAKK,BANGUNAN,Cahayaputra Asa|Cahayaputra Asa Keramik
+CAMP,SUSU,Campina Ice|Campina Ice Cream Industry
+CANI,BATUBARA,Capitol Nusantara|Capitol Nusantara Indonesia
+CARE,KESEHATAN,Metro Kesehatan|Metro Kesehatan Indonesia
+CARS,OTOMOTIF,Industri Dan|Industri Dan Perdagangn Bntrc Dhm
+CASA,INVESTASI,Capital Financial|Capital Financial Indonesia
+CASH,INTERNET,Cashlez Worldwide|Cashlez Worldwide Indonesia
+CASS,PENERBANGAN,Cardig Aero|Cardig Aero Services
+CBDK,REALESTATE,Bangun Kosambi|Bangun Kosambi Sukses
+CBMF,FURNITUR,Cahaya Bintang|Cahaya Bintang Medan
+CBPE,REALESTATE,Citra Buana|Citra Buana Prasida
+CBRE,BATUBARA,Cakra Buana|Cakra Buana Resources Energi
+CBUT,PANGAN,Citra Borneo|Citra Borneo Utama
+CCSI,KABEL,Communication Cbl|Communication Cbl Sys Indisa
+CDIA,LISTRIK,Chandra Daya|Chandra Daya Investasi
+CEKA,MAKANAN,Wilmar Cahaya|Wilmar Cahaya Indonesia
+CENT,TELEKOMUNIKASI,Centratama Telekomuniks|Centratama Telekomuniks Indonesia
+CFIN,PEMBIAYAAN,Clipan Finance|Clipan Finance Indonesia
+CGAS,TAMBANG,Citra Nusantara|Citra Nusantara Gemilang
+CHEK,ALATKESEHATAN,Diastika Biotekindo
+CHEM,KIMIA,Chemstar Indonesia
+CHIP,ELEKTRONIK,Pelita Teknologi|Pelita Teknologi Global
+CINT,FURNITUR,Chitose Internasional
+CITA,LOGAM,Cita Mineral|Cita Mineral Investindo
+CITY,REALESTATE,Natura City|Natura City Developments
+CLAY,HOTEL,Citra Putra|Citra Putra Realty
+CLEO,MINUMAN,Sariguna Primatirta
+CLPI,KIMIA,Colorpak Indonesia
+CMNP,JALANTOL,Citra Marga|Citra Marga Nusaphala Persada
+CMNT,MATERIAL,Cemindo Gemilang
+CMPP,PENERBANGAN,Airasia Indonesia
+CMRY,SUSU,Cisarua Mountain|Cisarua Mountain Dairy
+CNKO,BATUBARA,Exploitasi Energi|Exploitasi Energi Indonesia
+CNMA,REKREASI,Nusantara Sejahtera|Nusantara Sejahtera Raya
+CNTX,TEKSTIL,Century Textile|Century Textile Industry Seri A Pref Shs
+COAL,BATUBARA,Black Diamond|Black Diamond Resources
+COCO,MAKANAN,Wahana Interfood|Wahana Interfood Nusantara
+COIN,INVESTASI,Indokripto Koin|Indokripto Koin Semesta
+COWL,REALESTATE,Cowell Development
+CPIN,BUDIDAYA,Charoen Pokphand|Charoen Pokphand Indonesia
+CPRI,REALESTATE,Capri Nusa|Capri Nusa Satu Properti
+CPRO,BUDIDAYA,Central Proteina|Central Proteina Prima
+CRAB,MAKANAN,Toba Surimi|Toba Surimi Industries
+CRSN,KONSULTASI,Carsurin
+CSAP,RUMAHTANGGA,Catur Sentosa|Catur Sentosa Adiprana
+CSIS,REALESTATE,Cahayasakti Investindo|Cahayasakti Investindo Sukses
+CSMI,RUMAHMAKAN,Cipta Selera|Cipta Selera Murni
+CSRA,PANGAN,Cisadane Sawit|Cisadane Sawit Raya
+CTBN,LOGAM,Citra Tubindo
+CTRA,REALESTATE,Ciputra Development
+CTTH,BANGUNAN,Citatah
+CUAN,BATUBARA,Petrindo Jaya|Petrindo Jaya Kreasi
+CYBR,TEKNOLOGI,Itsec Asia
+DAAZ,TAMBANG,Daaz Bara|Daaz Bara Lestari
+DADA,REALESTATE,Diamond Citra|Diamond Citra Propertindo
+DART,REALESTATE,Duta Anggada|Duta Anggada Realty
+DATA,TELEKOMUNIKASI,Remala Abadi
+DAYA,OBAT,Duta Intidaya
+DCII,TEKNOLOGI,Dci Indonesia
+DEAL,LOGISTIK,Dewata Freight|Dewata Freight International
+DEFI,PEMBIAYAAN,Danasupra Erapacific
+DEPO,RUMAHTANGGA,Caturkarda Depo|Caturkarda Depo Bangunan
+DEWA,TAMBANG,Darma Henwa
+DEWI,BUDIDAYA,Dewi Shri|Dewi Shri Farmindo
+DFAM,HOTEL,Dafam Property|Dafam Property Indonesia
+DGIK,KONSTRUKSI,Nusa Konstruksi|Nusa Konstruksi Enjiniring
+DGNS,KESEHATAN,Diagnos Laboratorium|Diagnos Laboratorium Utama
+DGWG,KIMIA,Delta Giri|Delta Giri Wacana
+DIGI,FILM,Arkadia Digital|Arkadia Digital Media
+DILD,REALESTATE,Intiland Development
+DIVA,INTERNET,Distribusi Voucher|Distribusi Voucher Nusantara
+DKFT,TAMBANG,Central Omega|Central Omega Resources
+DKHH,KESEHATAN,Cipta Sarana|Cipta Sarana Medika
+DLTA,BEER,Delta Djakarta
+DMAS,REALESTATE,Puradelta Lestari
+DMMX,TEKNOLOGI,Digital Mediatama|Digital Mediatama Maxima
+DMND,MAKANAN,Diamond Food|Diamond Food Indonesia
+DNAR,BANK,Bank Oke|Bank Oke Indonesia
+DNET,INVESTASI,Indoritel Makmur|Indoritel Makmur Internasional
+DOID,TAMBANG,Delta Dunia|Delta Dunia Makmur
+DOOH,PERIKLANAN,Era Media|Era Media Sejahtera
+DOSS,ELEKTRONIK,Global Sukses|Global Sukses Digital
+DPNS,KIMIA,Duta Pertiwi|Duta Pertiwi Nusantara
+DPUM,BUDIDAYA,Dua Putra|Dua Putra Utama Makmur
+DRMA,OTOMOTIF,Dharma Polimetal
+DSFI,BUDIDAYA,Dharma Samudera|Dharma Samudera Fishing Industris
+DSNG,PANGAN,Dharma Satya|Dharma Satya Nusantara
+DSSA,BATUBARA,Dian Swastatika|Dian Swastatika Sentosa
+DUCK,RUMAHMAKAN,Jaya Bersama|Jaya Bersama Indo
+DUTI,REALESTATE,Duta Pertiwi
+DVLA,FARMASI,Darya-Varia Laboratoria
+DWGL,BATUBARA,Dwi Guna|Dwi Guna Laksana
+DYAN,KONSULTASI,Dyandra Media|Dyandra Media International
+EAST,HOTEL,Eastparc Hotel
+ECII,ELEKTRONIK,Electronic City|Electronic City Indonesia
+EDGE,TEKNOLOGI,Indointernet
+EKAD,KIMIA,Ekadharma International
+ELIT,TEKNOLOGI,Data Sinergitama|Data Sinergitama Jaya
+ELPI,LOGISTIK,Pelayaran Nasional|Pelayaran Nasional Ekalya Puramsr
+ELSA,TAMBANG,Elnusa
+ELTY,REALESTATE,Bakrieland Development
+EMAS,EMAS,Merdeka Gold|Merdeka Gold Resources
+EMDE,REALESTATE,Megapolitan Developments
+EMTK,INTERNET,Elang Mahkota|Elang Mahkota Teknologi
+ENAK,RUMAHMAKAN,Champ Resto|Champ Resto Indonesia
+ENRG,TAMBANG,Energi Mega|Energi Mega Persada
+ENVY,TEKNOLOGI,Envy Technologies|Envy Technologies Indonesia
+ENZO,BUDIDAYA,Morenzo Abadi|Morenzo Abadi Perkasa
+EPAC,PLASTIK,Megalestari Epack|Megalestari Epack Sentosaraya
+EPMT,OBAT,Enseval Putera|Enseval Putera Megatrading
+ERAA,ELEKTRONIK,Erajaya Swasembada
+ERAL,ELEKTRONIK,Sinar Eka|Sinar Eka Selaras
+ERTX,PAKAIAN,Eratex Djaja
+ESIP,PLASTIK,Sinergi Inti|Sinergi Inti Plastindo
+ESSA,KIMIA,Surya Esa|Surya Esa Perkasa
+ESTA,HOTEL,Esta Multi|Esta Multi Usaha
+ESTI,TEKSTIL,Ever Shine|Ever Shine Tex
+ETWA,KIMIA,Eterindo Wahanatama
+EURO,PERAWATAN,Estee Gold|Estee Gold Feet
+EXCL,TELEKOMUNIKASI,Xl Axiata
+FAPA,PANGAN,Fap Agri
+FAST,RUMAHMAKAN,Fast Food|Fast Food Indonesia
+FASW,PLASTIK,Fajar Surya|Fajar Surya Wisesa
+FILM,FILM,Md Pictures
+FIMP,KONSTRUKSI,Fimperkasa Utama
+FIRE,BATUBARA,Alfa Energi|Alfa Energi Investama
+FISH,PANGAN,Fks Multi|Fks Multi Agro
+FITT,HOTEL,Hotel Fitra|Hotel Fitra International
+FLMC,PERAWATAN,Falmaco Nonwoven|Falmaco Nonwoven Industri
+FMII,REALESTATE,Fortune Mate|Fortune Mate Indonesia
+FOLK,MULTISEKTOR,Multi Garam|Multi Garam Utama
+FOOD,MAKANAN,Sentra Food|Sentra Food Indonesia
+FORE,MINUMAN,Fore Kopi|Fore Kopi Indonesia
+FORU,PERIKLANAN,Fortune Indonesia
+FORZ,REALESTATE,Forza Land|Forza Land Indonesia
+FPNI,KIMIA,Lotte Chemical|Lotte Chemical Titan
+FREN,TELEKOMUNIKASI,Smartfren Telecom
+FUJI,PEMBIAYAAN,Fuji Finance|Fuji Finance Indonesia
+FUTR,PERIKLANAN,Futura Energi|Futura Energi Global
+FWCT,KAYU,Wijaya Cahaya|Wijaya Cahaya Timber
+GAMA,REALESTATE,Aksara Global|Aksara Global Development
+GDST,LOGAM,Gunawan Dianjaya|Gunawan Dianjaya Steel
+GDYR,BAN,Goodyear Indonesia
+GEMA,FURNITUR,Gema Grahasarana
+GEMS,BATUBARA,Golden Energi|Golden Energi Mines
+GGRM,ROKOK,Gudang Garam
+GGRP,LOGAM,Gunung Raja|Gunung Raja Paksi
+GHON,TELEKOMUNIKASI,Gihon Telekomunikasi|Gihon Telekomunikasi Indonesia
+GIAA,PENERBANGAN,Garuda Indonesia
+GJTL,BAN,Gajah Tunggal
+GLOB,ELEKTRONIK,Globe Kita|Globe Kita Terang
+GLVA,ELEKTRONIK,Galva Technologies
+GMFI,PENERBANGAN,Garuda Maintenance|Garuda Maintenance Facility Arasa
+GMTD,REALESTATE,Gowa Makassar|Gowa Makassar Tourism Development
+GOLD,TELEKOMUNIKASI,Visi Telekomunikasi|Visi Telekomunikasi Infrastruktur
+GOLF,REKREASI,Intra Golflink|Intra Golflink Resorts
+GOLL,PANGAN,Golden Plantation
+GOOD,MAKANAN,Garudafood Putra|Garudafood Putra Putri Jaya
+GOTO,INTERNET,Goto Gojek|Goto Gojek Tokopedia
+GPRA,REALESTATE,Perdana Gapura|Perdana Gapura Prima
+GPSO,MESIN,Geoprima Solusi
+GRIA,REALESTATE,Ingria Pratama|Ingria Pratama Capitalindo
+GRPH,HOTEL,Griptha Putra|Griptha Putra Persada
+GRPM,LOGISTIK,Graha Prima|Graha Prima Mentari
+GSMF,INVESTASI,Equity Development|Equity Development Investment
+GTBO,BATUBARA,Garda Tujuh|Garda Tujuh Buana
+GTRA,LOGISTIK,Grahaprima Suksesmandiri
+GTSI,TAMBANG,Gts Internasional
+GULA,MAKANAN,Aman Agrindo
+GUNA,PANGAN,Gunanusa Eramandiri
+GWSA,REALESTATE,Greenwood Sejahtera
+GZCO,PANGAN,Gozco Plantations
+HADE,GAS,Himalaya Energi|Himalaya Energi Perkasa
+HAIS,LOGISTIK,Hasnur Internasional|Hasnur Internasional Shipping
+HAJJ,TRAVEL,Arsy Buana|Arsy Buana Travelindo
+HALO,ALATKESEHATAN,Haloni Jane
+HATM,LOGISTIK,Habco Trans|Habco Trans Maritima
+HBAT,REALESTATE,Minahasa Membangun|Minahasa Membangun Hebat
+HDFA,PEMBIAYAAN,Radana Bhaskara|Radana Bhaskara Finance
+HDIT,INTERNET,Hensel Davest|Hensel Davest Indonesia
+HDTX,TEKSTIL,Panasia Indo|Panasia Indo Resources
+HEAL,KESEHATAN,Medikaloka Hermina
+HELI,PENERBANGAN,Jaya Trishindo
+HERO,SUPERMARKET,Hero Supermarket
+HEXA,MESINKONSTRUKSI,Hexindo Adiperkasa
+HGII,LISTRIK,Hero Global|Hero Global Investment
+HILL,TAMBANG,Hillcon
+HITS,TAMBANG,Humpuss Intermoda|Humpuss Intermoda Transportasi
+HKMU,LOGAM,Hk Metals|Hk Metals Utama
+HMSP,ROKOK,Hanjaya Mandala|Hanjaya Mandala Sampoerna
+HOKI,MAKANAN,Buyung Poetra|Buyung Poetra Sembada
+HOME,HOTEL,Hotel Mandarine|Hotel Mandarine Regency
+HOMI,REALESTATE,Grand House|Grand House Mulia
+HOPE,MESINKONSTRUKSI,Harapan Duta|Harapan Duta Pertiwi
+HOTL,HOTEL,Saraswati Griya|Saraswati Griya Lestari
+HRME,HOTEL,Menteng Heritage|Menteng Heritage Realty
+HRTA,PAKAIAN,Hartadinata Abadi
+HRUM,BATUBARA,Harum Energi
+HUMI,TAMBANG,Humpuss Maritim|Humpuss Maritim Internasional
+HYGN,LINGKUNGAN,Ecocare Indo|Ecocare Indo Pasifik
+IATA,PENERBANGAN,Mnc Energi|Mnc Energi Investments
+IBFN,PEMBIAYAAN,Intan Baru|Intan Baru Prana
+IBOS,MAKANAN,Indo Boga|Indo Boga Sukses
+IBST,TELEKOMUNIKASI,Inti Bangun|Inti Bangun Sejahtera
+ICBP,MAKANAN,Indofood Cbp|Indofood Cbp Sukses Makmur
+ICON,KONSULTASI,Island Concepts|Island Concepts Indonesia
+IDEA,BIMBEL,Idea Indonesia|Idea Indonesia Akademi
+IDPR,KONSTRUKSI,Indonesia Pondasi|Indonesia Pondasi Raya
+IFII,KAYU,Indonesia Fibreboard|Indonesia Fibreboard Industry
+IFSH,TAMBANG,Ifishdeco
+IGAR,PLASTIK,Champion Pacific|Champion Pacific Indonesia
+IIKP,OLAHRAGA,Inti Agri|Inti Agri Resources
+IKAI,HOTEL,Intikeramik Alamasri|Intikeramik Alamasri Industri
+IKAN,BUDIDAYA,Era Mandiri|Era Mandiri Cemerlang
+IKBI,KABEL,Sumi Indo|Sumi Indo Kabel
+IKPM,FARMASI,Ikapharmindo Putramas
+IMAS,OTOMOTIF,Indomobil Sukses|Indomobil Sukses Internasional
+IMJS,PEMBIAYAAN,Indomobil Multi|Indomobil Multi Jasa
+IMPC,BANGUNAN,Impack Pratama|Impack Pratama Industri
+INAF,FARMASI,Indofarma
+INAI,LOGAM,Indal Aluminium|Indal Aluminium Industry
+INCF,HUTAN,Indo Komoditi|Indo Komoditi Korpora
+INCI,KIMIA,Intanwijaya Internasional
+INCO,TAMBANG,Vale Indonesia
+INDF,MAKANAN,Indofood Sukses|Indofood Sukses Makmur
+INDO,REALESTATE,Royalindo Investa|Royalindo Investa Wijaya
+INDR,TEKSTIL,Indo-Rama Synthetics
+INDS,OTOMOTIF,Indospring
+INDX,KONSULTASI,Tanah Laut
+INDY,BATUBARA,Indika Energi
+INET,TELEKOMUNIKASI,Sinergi Inti|Sinergi Inti Andalan Prima
+INKP,KERTAS,Indah Kiat|Indah Kiat Pulp And Paper
+INOV,TEKSTIL,Inocycle Teknologi|Inocycle Teknologi Group
+INPC,BANK,Bank Artha|Bank Artha Graha Internasional
+INPP,REALESTATE,Indonesian Paradise|Indonesian Paradise Property
+INPS,TAMBANG,Indah Prakasa|Indah Prakasa Sentosa
+INRU,KERTAS,Toba Pulp|Toba Pulp Lestari
+INTA,MESINKONSTRUKSI,Intraco Penta
+INTD,KERTAS,Inter Delta
+INTP,MATERIAL,Indocement Tunggal|Indocement Tunggal Prakarsa
+IOTF,ELEKTRONIK,Sumber Sinergi|Sumber Sinergi Makmur
+IPAC,REALESTATE,Era Graharealty
+IPCC,PELABUHAN,Indonesia Kendaraan|Indonesia Kendaraan Terminal
+IPCM,PELABUHAN,Jasa Armada|Jasa Armada Indonesia
+IPOL,PLASTIK,Indopoly Swakarsa|Indopoly Swakarsa Industry
+IPPE,PANGAN,Indo Pureco|Indo Pureco Pratama
+IPTV,PENYIARAN,Mnc Vision|Mnc Vision Networks
+IRRA,ALATKESEHATAN,Itama Ranoraya
+IRSX,SOFTWARE,Aviana Sinar|Aviana Sinar Abadi
+ISAP,OTOMOTIF,Isra Presisi|Isra Presisi Indonesia
+ISAT,TELEKOMUNIKASI,Indosat
+ISEA,BUDIDAYA,Indo American|Indo American Seafoods
+ISSP,LOGAM,Steel Pipe|Steel Pipe Industry Of Indonesia
+ITIC,ROKOK,Indonesian Rokok
+ITMA,TAMBANG,Sumber Energi|Sumber Energi Andalan
+ITMG,BATUBARA,Indo Tambangraya|Indo Tambangraya Megah
+JARR,PANGAN,Jhonlin Agro|Jhonlin Agro Raya
+JAST,TELEKOMUNIKASI,Jasnita Telekomindo
+JATI,SOFTWARE,Informasi Teknologi|Informasi Teknologi Indonesia
+JAWA,PANGAN,Jaya Agra|Jaya Agra Wattie
+JAYA,LOGISTIK,Armada Berjaya|Armada Berjaya Trans
+JECC,KABEL,Jembo Cable|Jembo Cable Company
+JGLE,REKREASI,Graha Andrasentra|Graha Andrasentra Propertindo
+JIHD,HOTEL,Jakarta International|Jakarta International Hotls & Dev
+JKON,KONSTRUKSI,Jaya Konstruksi|Jaya Konstruksi Manggala Pratama
+JKSW,MATERIAL,Jakarta Kyoei|Jakarta Kyoei Steel Works
+JMAS,ASURANSI,Asuransi Jiwa|Asuransi Jiwa Syariah Js Mtr Abd
+JPFA,BUDIDAYA,Japfa Comfeed|Japfa Comfeed Indonesia
+JRPT,REALESTATE,Jaya Real|Jaya Real Property
+JSKY,LISTRIK,Sky Energi|Sky Energi Indonesia
+JSMR,JALANTOL,Jasa Marga
+JSPT,HOTEL,Jakarta Setiabudi|Jakarta Setiabudi Internasional
+JTPE,PERCETAKAN,Jasuindo Tiga|Jasuindo Tiga Perkasa
+KAEF,FARMASI,Kimia Farma
+KAQI,OTOMOTIF,Jantra Grupo|Jantra Grupo Indonesia
+KARW,PELABUHAN,Ictsi Jasa|Ictsi Jasa Prima
+KAYU,KAYU,Darmi Bersaudara
+KBAG,REALESTATE,Karya Bersama|Karya Bersama Anugerah
+KBLI,KABEL,Kmi Wire|Kmi Wire And Cable
+KBLM,KABEL,Kabelindo Murni
+KBLV,TELEKOMUNIKASI,First Media
+KBRI,KERTAS,Kertas Basuki|Kertas Basuki Rachmat Indonesia
+KDSI,PLASTIK,Kedawung Setia|Kedawung Setia Industrial
+KDTN,HOTEL,Puri Sentul|Puri Sentul Permai
+KEEN,LISTRIK,Kencana Energi|Kencana Energi Lestari
+KEJU,SUSU,Mulia Boga|Mulia Boga Raya
+KETR,TELEKOMUNIKASI,Ketrosden Triasmitra
+KIAS,BANGUNAN,Keramika Indonesia|Keramika Indonesia Assosiasi
+KICI,RUMAHTANGGA,Kedaung Indah|Kedaung Indah Can
+KIJA,REALESTATE,Kawasan Industri|Kawasan Industri Jababeka
+KING,LINGKUNGAN,Hoffmen Cleanindo
+KINO,PERAWATAN,Kino Indonesia
+KIOS,INTERNET,Kioson Komersial|Kioson Komersial Indonesia
+KJEN,LOGISTIK,Krida Jaringan|Krida Jaringan Nusantara
+KKES,KIMIA,Kusuma Kemindo|Kusuma Kemindo Sentosa
+KKGI,BATUBARA,Resource Alam|Resource Alam Indonesia
+KLAS,LOGISTIK,Pelayaran Kurnia|Pelayaran Kurnia Lautan Semesta
+KLBF,FARMASI,Kalbe Farma
+KLIN,RUMAHTANGGA,Klinko Karya|Klinko Karya Imaji
+KMDS,MAKANAN,Kurniamitra Duta|Kurniamitra Duta Sentosa
+KMTR,HUTAN,Kirana Megatara
+KOBX,MESINKONSTRUKSI,Kobexindo Tractors
+KOCI,REALESTATE,Kokoh Exa|Kokoh Exa Nusantara
+KOIN,BANGUNAN,Kokoh Inti|Kokoh Inti Arebama
+KOKA,KONSTRUKSI,Koka Indonesia
+KONI,KANTORAN,Perdana Bangun|Perdana Bangun Pusaka
+KOPI,TAMBANG,Mitra Energi|Mitra Energi Persada
+KOTA,REALESTATE,Dms Propertindo
+KPAL,MESINKONSTRUKSI,Steadfast Marine
+KPAS,PERAWATAN,Cottonindo Ariesta
+KPIG,HOTEL,Mnc Land
+KRAH,MESIN,Grand Kartech
+KRAS,LOGAM,Krakatau Steel
+KREN,INTERNET,Kresna Graha|Kresna Graha Investama
+KRYA,KONSTRUKSI,Bangun Karya|Bangun Karya Perkasa Jaya
+KSIX,REALESTATE,Kentanix Supra|Kentanix Supra International T
+KUAS,BANGUNAN,Ace Oldfields
+LABA,MESIN,Ladang Baja|Ladang Baja Murni
+LABS,ALATKESEHATAN,Ubc Medical|Ubc Medical Indonesia
+LAJU,LOGISTIK,Jasa Berdikari|Jasa Berdikari Logistics
+LAND,REALESTATE,Trimitra Propertindo
+LAPD,LISTRIK,Leyand International
+LCGP,REALESTATE,Eureka Prima|Eureka Prima Jakarta
+LCKM,TELEKOMUNIKASI,Lck Global|Lck Global Kedaton
+LEAD,TAMBANG,Logindo Samudramakmur
+LFLO,FURNITUR,Imago Mulia|Imago Mulia Persada
+LIFE,ASURANSI,Asuransi Jiwa|Asuransi Jiwa Sinarmas Msig
+LINK,TELEKOMUNIKASI,Link Net
+LION,KANTORAN,Lion Metal|Lion Metal Works
+LIVE,RUMAHTANGGA,Homeco Victoria|Homeco Victoria Makmur
+LMAS,TEKNOLOGI,Limas Indonesia|Limas Indonesia Makmur
+LMAX,OTOMOTIF,Lupromax Pelumas|Lupromax Pelumas Indonesia
+LMPI,RUMAHTANGGA,Langgeng Makmur|Langgeng Makmur Industri
+LMSH,LOGAM,Lionmesh Prima
+LOPI,LOGISTIK,Logisticsplus International
+LPCK,REALESTATE,Lippo Cikarang
+LPGI,ASURANSI,Lippo Asuransi|Lippo Asuransi Umum
+LPIN,OTOMOTIF,Multi Prima|Multi Prima Sejahtera
+LPKR,REALESTATE,Lippo Karawaci
+LPLI,REALESTATE,Star Pacific
+LPPF,STORE,Matahari Department|Matahari Department Store
+LPPS,INVESTASI,Lenox Pasifik|Lenox Pasifik Investama
+LRNA,TRANSPORTASI,Eka Sari|Eka Sari Lorena Transport
+LSIP,PANGAN,Perusahaan Prkbn|Perusahaan Prkbn Lndn Smtr Indnsa
+LTLS,KIMIA,Lautan Luas
+LUCK,KOMPUTER,Sentral Mitra|Sentral Mitra Informatika
+LUCY,RUMAHMAKAN,Lima Dua|Lima Dua Lima Tiga
+MABA,HOTEL,Marga Abhinaya|Marga Abhinaya Abadi
+MAGP,PANGAN,Multi Agro|Multi Agro Gemilang Plantation
+MAHA,BATUBARA,Mandiri Herindo|Mandiri Herindo Adiperkasa
+MAIN,BUDIDAYA,Malindo Feedmill
+MAMI,HOTEL,Mas Murni|Mas Murni Indonesia
+MANG,KONSTRUKSI,Manggung Polahraya
+MAPA,TEKSTIL,Map Aktif|Map Aktif Adiperkasa
+MAPB,RUMAHMAKAN,Map Boga|Map Boga Adiperkasa
+MAPI,TEKSTIL,Mitra Adiperkasa
+MARI,PENYIARAN,Mahaka Radio|Mahaka Radio Integra
+MARK,MESIN,Mark Dynamics|Mark Dynamics Indonesia
+MASA,BAN,Multistrada Arah|Multistrada Arah Sarana
+MASB,BANK,Bank Multiarta|Bank Multiarta Sentosa
+MAXI,MAKANAN,Maxindo Karya|Maxindo Karya Anugerah
+MAYA,BANK,Bank Mayapada|Bank Mayapada Internasional
+MBAP,BATUBARA,Mitrabara Adiperdana
+MBMA,TAMBANG,Merdeka Battery|Merdeka Battery Materials
+MBSS,BATUBARA,Mitrabahtera Segara|Mitrabahtera Segara Sejati
+MBTO,PERAWATAN,Martina Berto
+MCAS,INTERNET,M Cash|M Cash Integrasi
+MCOL,BATUBARA,Prima Andalan|Prima Andalan Mandiri
+MCOR,BANK,Bank China|Bank China Construction Bk Indosi Tk
+MDIA,PENYIARAN,Intermedia Capital
+MDIY,RUMAHTANGGA,Daya Intiguna|Daya Intiguna Yasa
+MDKA,EMAS,Merdeka Copper|Merdeka Copper Gold
+MDKI,KIMIA,Emdeki Utama
+MDLA,FARMASI,Medela Potentia
+MDLN,REALESTATE,Modernland Realty
+MDRN,KANTORAN,Modern Internasional
+MEDC,TAMBANG,Medco Energi|Medco Energi Internasional
+MEDS,ALATKESEHATAN,Hetzer Medical|Hetzer Medical Indonesia
+MEGA,BANK,Bank Mega
+MEJA,FURNITUR,Harta Djaya|Harta Djaya Karya
+MENN,ELEKTRONIK,Menn Teknologi|Menn Teknologi Indonesia
+MERI,BIMBEL,Merry Riana|Merry Riana Edukasi
+MERK,FARMASI,Merck
+META,JALANTOL,Nusantara Infrastructure
+MFIN,PEMBIAYAAN,Mandala Multifinance
+MFMI,KONSULTASI,Multifiling Mitra|Multifiling Mitra Indonesia
+MGLV,FURNITUR,Panca Anugrah|Panca Anugrah Wisesa
+MGNA,INVESTASI,Magna Investama|Magna Investama Mandiri
+MGRO,PANGAN,Mahkota Group
+MHKI,LINGKUNGAN,Multi-Hanna Kreasindo
+MICE,RUMAHTANGGA,Multi Indocitra
+MIDI,SUPERMARKET,Midi Utama|Midi Utama Indonesia
+MIKA,KESEHATAN,Mitra Keluarga|Mitra Keluarga Karyasehat
+MINA,HOTEL,Sanurhasta Mitra
+MINE,TAMBANG,Sinar Terang|Sinar Terang Mandiri
+MIRA,LOGISTIK,Mitra International|Mitra International Resources
+MITI,TAMBANG,Mitra Investindo
+MKAP,TAMBANG,Multikarya Asia|Multikarya Asia Pasifik Raya T
+MKNT,ELEKTRONIK,Mitra Komunikasi|Mitra Komunikasi Nusantara
+MKPI,REALESTATE,Metropolitan Kentjana
+MKTR,PANGAN,Menthobi Karyatama|Menthobi Karyatama Raya
+MLBI,BEER,Multi Bintang|Multi Bintang Indonesia
+MLIA,BANGUNAN,Mulia Industrindo
+MLPL,MULTISEKTOR,Multipolar
+MLPT,TEKNOLOGI,Multipolar Teknologi
+MMIX,PERAWATAN,Multi Medika|Multi Medika Internasional
+MMLP,REALESTATE,Mega Manunggal|Mega Manunggal Property
+MNCN,PENYIARAN,Media Nusantara|Media Nusantara Citra
+MOLI,KIMIA,Madusari Murni|Madusari Murni Indah
+MORA,TELEKOMUNIKASI,Mora Telematika|Mora Telematika Indonesia
+MPIX,INTERNET,Mitra Pedagang|Mitra Pedagang Indonesia
+MPMX,OTOMOTIF,Mitra Pinasthika|Mitra Pinasthika Mustika
+MPOW,LISTRIK,Megapower Makmur
+MPPA,SUPERMARKET,Matahari Putra|Matahari Putra Prima
+MPRO,REALESTATE,Maha Properti|Maha Properti Indonesia
+MPXL,LOGISTIK,Mpx Logistics|Mpx Logistics International
+MRAT,PERAWATAN,Mustika Ratu
+MREI,ASURANSI,Maskapai Reasuransi|Maskapai Reasuransi Indonesia
+MSIE,REALESTATE,Multisarana Intan|Multisarana Intan Eduka
+MSIN,FILM,Mnc Digital|Mnc Digital Entertainment
+MSJA,PERAWATAN,Multi Spunindo|Multi Spunindo Jaya
+MSKY,PENYIARAN,Mnc Sky|Mnc Sky Vision
+MSTI,TEKNOLOGI,Mastersystem Infotama
+MTDL,KOMPUTER,Metrodata Electronics
+MTEL,TELEKOMUNIKASI,Dayamitra Telekomunikasi
+MTFN,TAMBANG,Capitalinc Investment
+MTLA,REALESTATE,Metropolitan Land
+MTMH,KESEHATAN,Murni Sadar
+MTPS,KONSTRUKSI,Meta Epsi
+MTRA,KONSTRUKSI,Mitra Pemuda
+MTSM,REALESTATE,Metro Realty
+MTWI,ASURANSI,Malacca Trust|Malacca Trust Wwngn Insrnc
+MUTU,KONSULTASI,Mutuagung Lestari
+MYOH,TAMBANG,Samindo Resources
+MYOR,MAKANAN,Mayora Indah
+MYRX,REALESTATE,Hanson International
+MYTX,TEKSTIL,Asia Pacific|Asia Pacific Investama
+NAIK,ALATKEBAKARAN,Adiwarna Anugerah|Adiwarna Anugerah Abadi
+NANO,PERAWATAN,Nanotech Indonesia|Nanotech Indonesia Global
+NASA,HOTEL,Andalan Perkasa|Andalan Perkasa Abadi
+NASI,MAKANAN,Wahana Inti|Wahana Inti Makmurtbk
+NATO,HOTEL,Surya Permata|Surya Permata Andalan
+NAYZ,MAKANAN,Hassana Boga|Hassana Boga Sejahtera
+NCKL,TAMBANG,Trimegah Bangun|Trimegah Bangun Persada
+NELY,LOGISTIK,Pelayaran Nelly|Pelayaran Nelly Dwi Putri
+NEST,BUDIDAYA,Esta Indonesia
+NETV,PENYIARAN,Net Visi|Net Visi Media
+NFCX,INTERNET,Nfc Indonesia
+NICE,TAMBANG,Adhi Kartiko|Adhi Kartiko Pratama
+NICK,INVESTASI,Charnic Capital
+NICL,TAMBANG,Pam Mineral
+NIKL,TAMBANG,Pelat Timah|Pelat Timah Nusantara
+NINE,TEKNOLOGI,Techno9 Indonesia
+NIPS,OTOMOTIF,Nipress
+NIRO,REALESTATE,City Retail|City Retail Developments
+NISP,BANK,Bank Ocbc|Bank Ocbc Nisp
+NOBU,BANK,Bank Nationalnobu
+NPGF,KIMIA,Nusa Palapa|Nusa Palapa Gemilang
+NRCA,KONSTRUKSI,Nusa Raya|Nusa Raya Cipta
+NSSS,PANGAN,Nusantara Sawit|Nusantara Sawit Sejahtera
+NTBK,MESINKONSTRUKSI,Nusatama Berkah
+NUSA,HOTEL,Sinergi Megah|Sinergi Megah Internusa
+NZIA,REALESTATE,Nusantara Almazia
+OASA,TELEKOMUNIKASI,Protech Mitra|Protech Mitra Perkasa
+OBAT,FARMASI,Brigit Biofarmaka|Brigit Biofarmaka Teknologi Tb
+OBMD,KIMIA,Obm Drilchem
+OCAP,INVESTASI,Onix Capital
+OILS,PANGAN,Indo Oil|Indo Oil Perkasa
+OKAS,KIMIA,Ancora Indonesia|Ancora Indonesia Resources
+OLIV,FURNITUR,Oscar Mitra|Oscar Mitra Sukses Sejahtera
+OMED,ALATKESEHATAN,Jayamas Medica|Jayamas Medica Industri
+OMRE,REALESTATE,Indonesia Prima|Indonesia Prima Property
+OPMS,LOGAM,Optima Prima|Optima Prima Metal Sinergi
+PACK,PERCETAKAN,Solusi Kemasan|Solusi Kemasan Digital
+PADA,LINGKUNGAN,Personel Alih|Personel Alih Daya
+PADI,INVESTASI,Minna Padi|Minna Padi Investama Sekuritas
+PALM,PANGAN,Provident Agro
+PAMG,REALESTATE,Bima Sakti|Bima Sakti Pertiwi
+PANI,MAKANAN,Pantai Indah|Pantai Indah Kapuk Dua
+PANR,TRAVEL,Panorama Sentrawisata
+PANS,INVESTASI,Panin Sekuritas
+PART,OTOMOTIF,Cipta Perdana|Cipta Perdana Lancar
+PBID,PLASTIK,Panca Budi|Panca Budi Idaman
+PBRX,PAKAIAN,Pan Brothers
+PBSA,KONSTRUKSI,Paramita Bangun|Paramita Bangun Sarana
+PCAR,MAKANAN,Prima Cakrawala|Prima Cakrawala Abadi
+PDES,TRAVEL,Destinasi Tirta|Destinasi Tirta Nusantara
+PDPP,PLASTIK,Primadaya Plastisindo
+PEGE,INVESTASI,Panca Global|Panca Global Kapital
+PEHA,FARMASI,Phapros
+PEVE,FARMASI,Penta Valent
+PGAS,TAMBANG,Perusahaan Gas|Perusahaan Gas Negara
+PGEO,LISTRIK,Pertamina Geothermal|Pertamina Geothermal Energi
+PGJO,INTERNET,Tourindo Guide|Tourindo Guide Indonesia
+PGLI,HOTEL,Pembangunan Graha|Pembangunan Graha Lestari Indah
+PGUN,PANGAN,Pradiksi Gunatama
+PICO,PLASTIK,Pelangi Indah|Pelangi Indah Canindo
+PIPA,BANGUNAN,Multi Makmur|Multi Makmur Lemindo
+PJAA,REKREASI,Pembangunan Jaya|Pembangunan Jaya Ancol
+PJHB,LOGISTIK,Pelayaran Jaya|Pelayaran Jaya Hidup Baru
+PKPK,TAMBANG,Perdana Karya|Perdana Karya Perkasa
+PLAN,HOTEL,Planet Properindo|Planet Properindo Jaya
+PLAS,INVESTASI,Polaris Investama
+PLIN,REALESTATE,Plaza Indonesia|Plaza Indonesia Realty
+PMJS,OTOMOTIF,Putra Mandiri|Putra Mandiri Jembar
+PMMP,MAKANAN,Panca Mitra|Panca Mitra Multiperdana
+PMUI,TELEKOMUNIKASI,Prima Multi|Prima Multi Usaha Indonesia Tb
+PNBN,BANK,Bank Pan|Bank Pan Indonesia
+PNBS,BANK,Bank Panin|Bank Panin Dubai Syariah
+PNGO,HUTAN,Pinago Utama
+PNIN,ASURANSI,Paninvest
+PNLF,ASURANSI,Panin Financial
+PNSE,HOTEL,Pudjiadi And|Pudjiadi And Sons
+POLA,PEMBIAYAAN,Pool Advista|Pool Advista Finance
+POLI,REALESTATE,Pollux Hotels|Pollux Hotels Group
+POLL,REALESTATE,Pollux Properties|Pollux Properties Indonesia
+POLU,PAKAIAN,Golden Flower
+POLY,TEKSTIL,Asia Pacific|Asia Pacific Fibers
+POOL,INVESTASI,Pool Advista|Pool Advista Indonesia
+PORT,PELABUHAN,Nusantara Pelabuhan|Nusantara Pelabuhan Handal
+POSA,REALESTATE,Bliss Properti|Bliss Properti Indonesia
+POWR,LISTRIK,Cikarang Listrindo
+PPGL,LOGISTIK,Prima Globalindo|Prima Globalindo Logistik
+PPRE,KONSTRUKSI,Pp Presisi
+PPRI,PLASTIK,Paperocks Indonesia
+PPRO,REALESTATE,Pp Properti
+PRAS,OTOMOTIF,Prima Alloy|Prima Alloy Steel Universal
+PRAY,KESEHATAN,Famon Awal|Famon Awal Bros Sedaya
+PRDA,KESEHATAN,Prodia Widyahusada
+PRIM,KESEHATAN,Royal Prima
+PSAB,EMAS,J Resources|J Resources Asia Pasifik
+PSAT,BATUBARA,Pancaran Samudera|Pancaran Samudera Transport Tb
+PSDN,MAKANAN,Prasidha Aneka|Prasidha Aneka Niaga
+PSGO,PANGAN,Palma Serasih
+PSKT,HOTEL,Red Planet|Red Planet Indonesia
+PSSI,BATUBARA,Pelita Samudera|Pelita Samudera Shipping
+PTBA,BATUBARA,Bukit Asam
+PTDU,KONSTRUKSI,Djasa Ubersakti
+PTIS,BATUBARA,Indo Straits
+PTMP,MESIN,Mitra Pack
+PTMR,PLASTIK,Master Print
+PTPP,KONSTRUKSI,Pembangunan Perumahan
+PTPS,PANGAN,Pulau Subur
+PTPW,KONSTRUKSI,Pratama Widya
+PTRO,TAMBANG,Petrosea
+PTSN,ELEKTRONIK,Sat Nusapersada
+PTSP,RUMAHMAKAN,Pioneerindo Gourmet|Pioneerindo Gourmet International
+PUDP,REALESTATE,Pudjiadi Prestige
+PURA,LOGISTIK,Putra Rajawali|Putra Rajawali Kencana
+PURE,TAMBANG,Trinitan Metals|Trinitan Metals And Minerals
+PURI,REALESTATE,Puri Global|Puri Global Sukses
+PWON,REALESTATE,Pakuwon Jati
+PYFA,FARMASI,Pyridam Farma
+PZZA,RUMAHMAKAN,Sarimelati Kencana
+RAAM,FILM,Tripar Multivision|Tripar Multivision Plus
+RAFI,MAKANAN,Sari Kreasi|Sari Kreasi Boga
+RAJA,TAMBANG,Rukun Raharja
+RALS,STORE,Ramayana Lestari|Ramayana Lestari Sentosa
+RANC,SUPERMARKET,Supra Boga|Supra Boga Lestari
+RATU,TAMBANG,Raharja Energi|Raharja Energi Cepu
+RBMS,REALESTATE,Ristia Bintang|Ristia Bintang Mahkotasejati
+RCCC,LOGISTIK,Utama Radar|Utama Radar Cahaya
+RDTX,REALESTATE,Roda Vivatex
+REAL,REALESTATE,Repower Asia|Repower Asia Indonesia
+RELF,REALESTATE,Graha Mitra|Graha Mitra Asia
+RELI,INVESTASI,Reliance Sekuritas|Reliance Sekuritas Indonesia
+RGAS,TAMBANG,Kian Santang|Kian Santang Muliatama
+RICY,PAKAIAN,Ricky Putra|Ricky Putra Globalindo
+RIGS,BATUBARA,Rig Tenders|Rig Tenders Indonesia
+RIMO,REALESTATE,Rimo International|Rimo International Lestari
+RISE,HOTEL,Jaya Sukses|Jaya Sukses Makmur Sentosa
+RLCO,BUDIDAYA,Abadi Lestari|Abadi Lestari Indonesia
+RMKE,BATUBARA,Rmk Energi
+RMKO,TAMBANG,Royaltama Mulia|Royaltama Mulia Kontraktorindo
+ROCK,REALESTATE,Rockfields Property|Rockfields Property Indonesia
+RODA,REALESTATE,Pikko Land|Pikko Land Development
+RONY,KONSTRUKSI,Aesler Grup|Aesler Grup Internasional
+ROTI,MAKANAN,Nippon Indosari|Nippon Indosari Corpindo
+RSCH,KESEHATAN,Charlie Hospital|Charlie Hospital Semarang
+RSGK,KESEHATAN,Kedoya Adyaraya
+RUIS,TAMBANG,Radiant Utama|Radiant Utama Interinsco
+RUNS,SOFTWARE,Global Sukses|Global Sukses Solusi
+SAFE,TRANSPORTASI,Steady Safe
+SAGE,REALESTATE,Saptausaha Gemilangindah
+SAME,KESEHATAN,Sarana Meditama|Sarana Meditama Metropolitan
+SAMF,KIMIA,Saraswanti Anugerah|Saraswanti Anugerah Makmur
+SAPX,LOGISTIK,Satria Antaran|Satria Antaran Prima
+SATU,REALESTATE,Kota Satu|Kota Satu Properti
+SBAT,TEKSTIL,Sejahtera Bintang|Sejahtera Bintang Abadi Textile
+SBMA,KIMIA,Surya Biru|Surya Biru Murni Acetylene
+SCCO,KABEL,Supreme Cable|Supreme Cable Mnfctrg & Commerce
+SCMA,PENYIARAN,Surya Citra|Surya Citra Media
+SCNP,RUMAHTANGGA,Selaras Citra|Selaras Citra Nusantara Perkasa
+SCPI,FARMASI,Organon Pharma|Organon Pharma Indonesia
+SDMU,LOGISTIK,Sidomulyo Selaras
+SDPC,OBAT,Millennium Pharmacon|Millennium Pharmacon Internationl
+SDRA,BANK,Bank Woori|Bank Woori Saudara Indonesia 1906
+SEMA,LISTRIK,Semacom Integrated
+SFAN,INVESTASI,Surya Fajar|Surya Fajar Capital
+SGER,BATUBARA,Sumber Global|Sumber Global Energi
+SGRO,PANGAN,Sampoerna Agro
+SHID,HOTEL,Hotel Sahid|Hotel Sahid Jaya International
+SHIP,TAMBANG,Sillo Maritime|Sillo Maritime Perdana
+SICO,TAMBANG,Sigma Energi|Sigma Energi Compressindo
+SIDO,FARMASI,Industri Jamu|Industri Jamu Dan Farmasi Sd Mncl
+SILO,KESEHATAN,Siloam International|Siloam International Hospitals
+SIMA,PLASTIK,Siwani Makmur
+SIMP,PANGAN,Salim Ivomas|Salim Ivomas Pratama
+SINI,BANGUNAN,Singaraja Putra
+SIPD,BUDIDAYA,Sreeya Sewu|Sreeya Sewu Indonesia
+SKBM,MAKANAN,Sekar Bumi
+SKLT,MAKANAN,Sekar Laut
+SKRN,MESINKONSTRUKSI,Superkrane Mitra|Superkrane Mitra Utama
+SKYB,SOFTWARE,Northcliff Citranusa|Northcliff Citranusa Indonesia
+SLIS,ELEKTRONIK,Gaya Abadi|Gaya Abadi Sempurna
+SMAR,PANGAN,Sinar Mas|Sinar Mas Agro Resources And Tech
+SMBR,MATERIAL,Semen Baturaja
+SMCB,MATERIAL,Solusi Bangun|Solusi Bangun Indonesia
+SMDM,REALESTATE,Suryamas Dutamakmur
+SMDR,LOGISTIK,Samudera Indonesia
+SMGA,TAMBANG,Sumber Mineral|Sumber Mineral Global Abadi Tb
+SMGR,MATERIAL,Semen Indonesia
+SMIL,MESINKONSTRUKSI,Sarana Mitra|Sarana Mitra Luas
+SMKL,PLASTIK,Satyamitra Kemas|Satyamitra Kemas Lestari
+SMKM,KONSTRUKSI,Sumber Mas|Sumber Mas Konstruksi
+SMLE,KIMIA,Sinergi Multi|Sinergi Multi Lestarindo
+SMMA,INVESTASI,Sinar Mas|Sinar Mas Multiartha
+SMMT,BATUBARA,Golden Eagle|Golden Eagle Energi
+SMRA,REALESTATE,Summarecon Agung
+SMRU,TAMBANG,Smr Utama
+SMSM,OTOMOTIF,Selamat Sempurna
+SNLK,HOTEL,Sunter Lakeside|Sunter Lakeside Hotel
+SOCI,TAMBANG,Soechi Lines
+SOFA,FURNITUR,Boston Furniture|Boston Furniture Industries
+SOHO,FARMASI,Soho Global|Soho Global Health
+SOLA,MATERIAL,Xolare Rcr|Xolare Rcr Energi
+SONA,STORE,Sona Topas|Sona Topas Tourism Industry
+SOSS,LINGKUNGAN,Shield On|Shield On Service
+SOTS,HOTEL,Satria Mega|Satria Mega Kencana
+SOUL,MAKANAN,Mitra Tirta|Mitra Tirta Buwana
+SPMA,PLASTIK,Suparma
+SPRE,TEKSTIL,Soraya Berjaya|Soraya Berjaya Indonesia
+SPTO,BANGUNAN,Surya Pertiwi
+SQMI,EMAS,Wilton Makmur|Wilton Makmur Indonesia
+SRAJ,KESEHATAN,Sejahteraraya Anugrahjaya
+SRIL,TEKSTIL,Sri Rejeki|Sri Rejeki Isman
+SRSN,KIMIA,Indo Acidatama
+SRTG,INVESTASI,Saratoga Investama|Saratoga Investama Sedaya
+SSIA,KONSTRUKSI,Surya Semesta|Surya Semesta Internusa
+SSMS,PANGAN,Sawit Sumbermas|Sawit Sumbermas Sarana
+SSTM,TEKSTIL,Sunson Textile|Sunson Textile Manufacturer
+STAA,PANGAN,Sumber Tani|Sumber Tani Agung Resources
+STAR,INVESTASI,Buana Artha|Buana Artha Anugerah
+STRK,BEER,Lovina Beach|Lovina Beach Brewery
+STTP,MAKANAN,Siantar Top
+SUGI,TAMBANG,Sugih Energi
+SULI,KAYU,Slj Global
+SUNI,TAMBANG,Sunindo Pratama
+SUPA,BANK,Super Bank|Super Bank Indonesia
+SUPR,TELEKOMUNIKASI,Solusi Tunas|Solusi Tunas Pratama
+SURE,TAMBANG,Super Energi
+SURI,ALATKESEHATAN,Maja Agung|Maja Agung Latexindo
+SWAT,KERTAS,Sriwahana Adityakarta
+SWID,REALESTATE,Saraswanti Indoland|Saraswanti Indoland Development
+TALF,PLASTIK,Tunas Alfin
+TAMA,KONSTRUKSI,Lancartama Sejati
+TAMU,TAMBANG,Pelayaran Tamarin|Pelayaran Tamarin Samudra
+TAPG,PANGAN,Triputra Agro|Triputra Agro Persada
+TARA,REALESTATE,Agung Semesta|Agung Semesta Sejahtera
+TAXI,TRANSPORTASI,Express Transindo|Express Transindo Utama
+TAYS,MAKANAN,Jaya Swarasa|Jaya Swarasa Agung
+TBIG,TELEKOMUNIKASI,Tower Bersama|Tower Bersama Infrastructure
+TBLA,MAKANAN,Tunas Baru|Tunas Baru Lampung
+TBMS,TEMBAGA,Tembaga Mulia|Tembaga Mulia Semanan
+TCID,PERAWATAN,Mandom Indonesia
+TCPI,BATUBARA,Transcoal Pacific
+TDPM,KIMIA,Tridomain Performance|Tridomain Performance Materials
+TEBE,BATUBARA,Dana Brata|Dana Brata Luhur
+TECH,TEKNOLOGI,Indosterling Technomedia
+TELE,ELEKTRONIK,Tiphone Mobile|Tiphone Mobile Indonesia
+TFAS,INTERNET,Telefast Indonesia
+TFCO,TEKSTIL,Tifico Fiber|Tifico Fiber Indonesia
+TGKA,MAKANAN,Tigaraksa Satria
+TGRA,LISTRIK,Terregra Asia|Terregra Asia Energi
+TGUK,MAKANAN,Platinum Wahab|Platinum Wahab Nusantara
+TIFA,PEMBIAYAAN,Kdb Tifa|Kdb Tifa Finance
+TINS,TAMBANG,Timah
+TIRA,MESIN,Tira Austenite
+TIRT,KAYU,Tirta Mahakam|Tirta Mahakam Resources
+TKIM,KERTAS,Pabrik Kertas|Pabrik Kertas Tjiwi Kimia
+TLDN,PANGAN,Teladan Prima|Teladan Prima Agro
+TLKM,TELEKOMUNIKASI,Telkom Indonesia
+TMAS,LOGISTIK,Temas
+TMPO,FILM,Tempo Inti|Tempo Inti Media
+TNCA,LOGISTIK,Trimuda Nuansa|Trimuda Nuansa Citra
+TOBA,BATUBARA,Tbs Energi|Tbs Energi Utama
+TOOL,RUMAHTANGGA,Rohartindo Nusantara|Rohartindo Nusantara Luas
+TOPS,KONSTRUKSI,Totalindo Eka|Totalindo Eka Persada
+TOSK,INTERNET,Topindo Solusi|Topindo Solusi Komunika
+TOTL,KONSTRUKSI,Total Bangun|Total Bangun Persada
+TOTO,BANGUNAN,Surya Toto|Surya Toto Indonesia
+TOWR,TELEKOMUNIKASI,Sarana Menara|Sarana Menara Nusantara
+TOYS,OLAHRAGA,Sunindo Adipersada
+TPIA,KIMIA,Chandra Asri|Chandra Asri Petrochemical
+TPMA,BATUBARA,Trans Power|Trans Power Marine
+TRAM,BATUBARA,Trada Alam|Trada Alam Minera
+TRGU,MAKANAN,Cerestar Indonesia
+TRIL,MESIN,Triwira Insanlestari
+TRIM,INVESTASI,Trimegah Sekuritas|Trimegah Sekuritas Indonesia
+TRIN,REALESTATE,Perintis Triniti|Perintis Triniti Properti
+TRIO,ELEKTRONIK,Trikomsel Oke
+TRIS,PAKAIAN,Trisula International
+TRJA,TRANSPORTASI,Transkon Jaya
+TRON,SOFTWARE,Teknologi Karya|Teknologi Karya Digital Nusa
+TRST,PLASTIK,Trias Sentosa
+TRUK,LOGISTIK,Guna Timur|Guna Timur Raya
+TRUS,PEMBIAYAAN,Trust Finance|Trust Finance Indonesia
+TSPC,FARMASI,Tempo Scan|Tempo Scan Pacific
+TUGU,ASURANSI,Asuransi Tugu|Asuransi Tugu Pratama Indonesia
+TYRE,BAN,King Tire|King Tire Indonesia
+UANG,HOTEL,Pakuan
+UCID,PERAWATAN,Uni-Charm Indonesia
+UDNG,BUDIDAYA,Agro Bahari|Agro Bahari Nusantara
+UFOE,ELEKTRONIK,Damai Sejahtera|Damai Sejahtera Abadi
+ULTJ,SUSU,Ultrajaya Milk|Ultrajaya Milk Industry
+UNIC,KIMIA,Unggul Indah|Unggul Indah Cahaya
+UNIQ,TAMBANG,Ulima Nitra
+UNIT,TEKSTIL,Nusantara Inti|Nusantara Inti Corpora
+UNSP,PANGAN,Bakrie Sumatera|Bakrie Sumatera Plantations
+UNTD,OLAHRAGA,Terang Dunia|Terang Dunia Internusa
+UNTR,MESINKONSTRUKSI,United Tractors
+UNVR,PERAWATAN,Unilever Indonesia
+URBN,REALESTATE,Urban Jakarta|Urban Jakarta Propertindo
+UVCR,INTERNET,Trimegah Karya|Trimegah Karya Pratama
+VAST,REALESTATE,Vastland Indonesia
+VERN,FILM,Verona Indah|Verona Indah Pictures
+VICI,PERAWATAN,Victoria Care|Victoria Care Indonesia
+VICO,INVESTASI,Victoria Investama
+VINS,ASURANSI,Victoria Insurance
+VISI,KANTORAN,Satu Visi|Satu Visi Putra
+VIVA,PENYIARAN,Visi Media|Visi Media Asia
+VKTR,OTOMOTIF,Vktr Teknologi|Vktr Teknologi Mobilitas
+VOKS,KABEL,Voksel Electric
+VRNA,PEMBIAYAAN,Verena Multi|Verena Multi Finance
+VTNY,PEMBIAYAAN,Venteny Fortuna|Venteny Fortuna International
+WAPO,PANGAN,Wahana Pronatural
+WEGE,KONSTRUKSI,Wijaya Karya|Wijaya Karya Bangunan Gedung
+WEHA,TRANSPORTASI,Weha Transportasi|Weha Transportasi Indonesia
+WGSH,SOFTWARE,Wira Global|Wira Global Solusi
+WICO,MAKANAN,Wicaksana Overseas|Wicaksana Overseas International
+WIDI,MESINKONSTRUKSI,Widiant Jaya|Widiant Jaya Krenindo
+WIFI,INTERNET,Solusi Sinergi|Solusi Sinergi Digital
+WIIM,ROKOK,Wismilak Inti|Wismilak Inti Makmur
+WIKA,KONSTRUKSI,Wijaya Karya
+WINE,BEER,Hatten Bali
+WINR,REALESTATE,Winner Nusantara|Winner Nusantara Jaya
+WINS,TAMBANG,Wintermar Offshore|Wintermar Offshore Marine
+WIRG,SOFTWARE,Wir Asia
+WMPP,BUDIDAYA,Widodo Makmur|Widodo Makmur Perkasa
+WMUU,BUDIDAYA,Widodo Makmur|Widodo Makmur Unggas
+WOMF,PEMBIAYAAN,Wahana Ottomitra|Wahana Ottomitra Multiartha
+WOOD,FURNITUR,Integra Indocabinet
+WOWS,TAMBANG,Ginting Jaya|Ginting Jaya Energi
+WSBP,MATERIAL,Waskita Beton|Waskita Beton Precast
+WSKT,KONSTRUKSI,Waskita Karya
+WTON,MATERIAL,Wijaya Karya|Wijaya Karya Beton
+YELO,TRAVEL,Yelooo Integra|Yelooo Integra Datanet
+YOII,ASURANSI,Asuransi Digital|Asuransi Digital Bersama
+YPAS,PLASTIK,Yanaprima Hastapersada
+YULE,INVESTASI,Yulie Sekuritas|Yulie Sekuritas Indonesia
+YUPI,MAKANAN,Yupi Indo|Yupi Indo Jelly Gum
+ZATA,PAKAIAN,Bersama Zatta|Bersama Zatta Jaya
+ZBRA,MULTISEKTOR,Dosni Roha|Dosni Roha Indonesia
+ZINC,TAMBANG,Kapuas Prima|Kapuas Prima Coal
+ZONE,TEKSTIL,Mega Perintis
+ZYRX,KOMPUTER,Zyrexindo Mandiri|Zyrexindo Mandiri Buana
+TRUE,REALESTATE,Triniti Dinamik
