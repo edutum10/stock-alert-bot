@@ -274,7 +274,7 @@ def run_bot():
                     "📰 ANALISIS BERITA + TEKNIKAL\n"
                     f"Sumber: {source}\n"
                     f"Judul: {entry.title}\n\n"
-                    🏷 Emiten: MARKET
+                    f"🏷 Emiten: {emiten}\n"
                     f"📊 Sentimen: {sentiment}\n"
                     f"📈 RSI: {rsi if rsi else 'N/A'}\n"
                     f"🧠 Confidence: {conf}%\n"
