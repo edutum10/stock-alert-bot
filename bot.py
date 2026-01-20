@@ -233,13 +233,11 @@ def detect_sector(title):
 # MAIN
 # =========================================================
 RSS_FEEDS = {
-    "CNBC": "https://www.cnbcindonesia.com/market/rss",
-    "Kontan": "https://investasi.kontan.co.id/rss",
-    "Reuters": "https://www.reuters.com/rssFeed/asia-pacificNews",
-    "Gapki": "https://gapki.id/berita-terkini/rss",
-    "Bisnis": "https://market.bisnis.com/rss",
-    "BI": "https://www.bi.go.id/id/rss/default.aspx"
-
+    "Google News IDX": (
+        "https://news.google.com/rss/search?"
+        "q=saham+Indonesia+OR+IHSG+OR+IDX+OR+emiten"
+        "&hl=id&gl=ID&ceid=ID:id"
+    )
 }
 
 def run_bot():
