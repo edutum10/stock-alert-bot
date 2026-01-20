@@ -92,7 +92,7 @@ def extract_emitens(text):
     t = text.lower()
 
     for ticker, info in EMITEN_MASTER.items():
-        if info["sector"] not in ACTIVE_SECTORS:
+        if info["sector"].upper() not in ACTIVE_SECTORS:
             continue
 
         for alias in info["aliases"]:
@@ -111,10 +111,10 @@ def analyze_sentiment(text):
     score = 0
     t = text.lower()
 
-    for w in NEGATIVE_WORDS:
+    for w in KEYWORDS_NEGATIVE:
         if w in t:
             score -= 1
-    for w in POSITIVE_WORDS:
+    for w in KEYWORDS_POSITIVE:
         if w in t:
             score += 1
 
@@ -260,7 +260,7 @@ def run_bot():
 
             emitens = extract_emitens(text)
             if not emitens:
-                continue
+                emitens = ["MARKET"]
 
             sentiment = analyze_sentiment(text)
             sentiment += context_adjustment(entry.title)
@@ -274,7 +274,7 @@ def run_bot():
                     "📰 ANALISIS BERITA + TEKNIKAL\n"
                     f"Sumber: {source}\n"
                     f"Judul: {entry.title}\n\n"
-                    f"🏷 Emiten: {emiten}\n"
+                    f"🏷 Emiten: MARKET
                     f"📊 Sentimen: {sentiment}\n"
                     f"📈 RSI: {rsi if rsi else 'N/A'}\n"
                     f"🧠 Confidence: {conf}%\n"
