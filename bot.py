@@ -85,6 +85,22 @@ KEYWORDS_POSITIVE = [
 
 
 # =========================================================
+# DEDUPLICATION (ANTI BERITA SAMA)
+# =========================================================
+SENT_LINKS_FILE = "sent_links.txt"
+
+def load_sent_links():
+    if not os.path.exists(SENT_LINKS_FILE):
+        return set()
+    with open(SENT_LINKS_FILE, "r") as f:
+        return set(line.strip() for line in f)
+
+def save_sent_link(link):
+    with open(SENT_LINKS_FILE, "a") as f:
+        f.write(link + "\n")
+
+
+# =========================================================
 # EMITEN DETECTION (REGEX, ANTI FALSE POSITIVE)
 # =========================================================
 def extract_emitens(text):
