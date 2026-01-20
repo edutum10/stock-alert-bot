@@ -246,7 +246,7 @@ def detect_sector(title):
 
 
 # =========================================================
-# MAIN
+# RSS SOURCE (FINAL)
 # =========================================================
 RSS_FEEDS = {
     "Google News IDX": (
@@ -256,33 +256,37 @@ RSS_FEEDS = {
     )
 }
 
+SKIP_KEYWORDS = ["rangkuman", "ringkasan", "recap"]
+
+
+# =========================================================
+# MAIN
+# =========================================================
 def run_bot():
+    sent_links = load_sent_links()
+
     for source, url in RSS_FEEDS.items():
-        try:
-            feed = feedparser.parse(url)
-
-            # jika RSS error / kosong
-            if not feed.entries:
-                print(f"[WARN] RSS kosong atau diblok: {source}")
-                continue
-
-        except Exception as e:
-            print(f"[ERROR] Gagal ambil RSS {source}: {e}")
+        feed = feedparser.parse(url)
+        if not feed.entries:
             continue
 
         for entry in feed.entries[:5]:
-            summary = entry.get("summary", "")
-            text = f"{entry.title} {summary}"
+            if entry.link in sent_links:
+                continue
+
+            if any(k in entry.title.lower() for k in SKIP_KEYWORDS):
+                continue
+
+            text = f"{entry.title} {entry.get('summary', '')}"
 
             emitens = extract_emitens(text)
             if not emitens:
                 emitens = ["MARKET"]
 
             sentiment = analyze_sentiment(text)
-            sentiment += context_adjustment(entry.title)
 
             for emiten in emitens:
-                rsi = get_rsi(emiten)
+                rsi = get_rsi(emiten) if emiten != "MARKET" else None
                 conf = confidence_score(sentiment, rsi)
                 action = final_action(sentiment, rsi, conf)
 
@@ -301,6 +305,8 @@ def run_bot():
                 )
 
                 send_message(message)
+
+            save_sent_link(entry.link)
 
 if __name__ == "__main__":
     run_bot()
