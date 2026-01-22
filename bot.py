@@ -150,18 +150,36 @@ def context_adjustment(title):
 # =========================================================
 def get_rsi(symbol):
     try:
-        data = yf.download(f"{symbol}.JK", period="3mo", interval="1d", progress=False)
-        if data.empty:
+        data = yf.download(
+            f"{symbol}.JK",
+            period="3mo",
+            interval="1d",
+            progress=False
+        )
+
+        if data.empty or "Close" not in data:
             return None
 
         delta = data["Close"].diff()
-        gain = delta.clip(lower=0).rolling(14).mean()
-        loss = -delta.clip(upper=0).rolling(14).mean()
-        rs = gain / loss
-        rsi = 100 - (100 / (1 + rs))
 
-        return round(rsi.iloc[-1], 2)
-    except Exception:
+        gain = delta.where(delta > 0, 0.0)
+        loss = -delta.where(delta < 0, 0.0)
+
+        avg_gain = gain.rolling(14).mean()
+        avg_loss = loss.rolling(14).mean()
+
+        rs = avg_gain / avg_loss
+        rsi_series = 100 - (100 / (1 + rs))
+
+        last_rsi = rsi_series.dropna()
+
+        if last_rsi.empty:
+            return None
+
+        return float(round(last_rsi.iloc[-1], 2))
+
+    except Exception as e:
+        print(f"[RSI ERROR] {symbol}: {e}")
         return None
 
 
