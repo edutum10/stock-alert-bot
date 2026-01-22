@@ -123,18 +123,77 @@ def extract_emitens(text):
 # =========================================================
 # SENTIMENT & CONTEXT
 # =========================================================
-def analyze_sentiment(text):
-    score = 0
+NEWS_TYPE_KEYWORDS = {
+    "REGULATORY": [
+        "izin dicabut", "pencabutan izin", "sanksi",
+        "dibekukan", "dihentikan", "pembekuan"
+    ],
+    "FUNDAMENTAL": [
+        "laba", "rugi", "kinerja", "pendapatan",
+        "utang", "rasio", "keuangan"
+    ],
+    "PRICE": [
+        "ara", "arb", "limit atas", "limit bawah",
+        "melonjak", "anjlok tajam"
+    ],
+    "MARKET": [
+        "ihsg", "pasar", "bursa", "indeks",
+        "asing", "global"
+    ]
+}
+
+def classify_news_type(text):
     t = text.lower()
+    found = []
 
-    for w in KEYWORDS_NEGATIVE:
-        if w in t:
-            score -= 1
-    for w in KEYWORDS_POSITIVE:
-        if w in t:
-            score += 1
+    for ntype, keywords in NEWS_TYPE_KEYWORDS.items():
+        for kw in keywords:
+            if kw in t:
+                found.append(ntype)
+                break
 
-    return score
+    if not found:
+        return "UNKNOWN"
+
+    if len(found) > 1:
+        return "MIXED"
+
+    return found[0]
+
+SENTIMENT_WEIGHTS = {
+    "NEGATIVE_STRONG": {
+        "words": ["izin dicabut", "pencabutan izin", "pailit", "bangkrut"],
+        "score": -2
+    },
+    "NEGATIVE_WEAK": {
+        "words": ["melemah", "tertekan", "koreksi"],
+        "score": -1
+    },
+    "POSITIVE_STRONG": {
+        "words": ["ara", "limit atas", "buyback besar"],
+        "score": +2
+    },
+    "POSITIVE_WEAK": {
+        "words": ["rebound", "menguat", "naik"],
+        "score": +1
+    }
+}
+
+def analyze_sentiment_v2(text, news_type):
+    t = text.lower()
+    score = 0
+
+    for group in SENTIMENT_WEIGHTS.values():
+        for w in group["words"]:
+            if w in t:
+                score += group["score"]
+
+    # 🔑 KONTEKS: MARKET NEGATIVE TIDAK BOLEH KALAHKAN PRICE ACTION
+    if news_type == "MIXED":
+        if score < 0:
+            score += 1  # netralisasi market noise
+
+    return max(min(score, 2), -2)
 
 def context_adjustment(title):
     t = title.lower()
@@ -186,24 +245,35 @@ def get_rsi(symbol):
 # =========================================================
 # CONFIDENCE & ACTION
 # =========================================================
-def confidence_score(sentiment, rsi):
+NEWS_TYPE_CONFIDENCE = {
+    "REGULATORY": 30,
+    "FUNDAMENTAL": 25,
+    "PRICE": 20,
+    "MARKET": 10,
+    "MIXED": 15,
+    "UNKNOWN": 5
+}
+
+def confidence_score_v2(sentiment, rsi, news_type):
     score = 0
 
-    if sentiment >= 2:
-        score += 40
-    elif sentiment == 1:
-        score += 25
-    elif sentiment == 0:
-        score += 10
+    # kontribusi jenis berita
+    score += NEWS_TYPE_CONFIDENCE.get(news_type, 5)
 
-    if rsi is not None:
+    # kontribusi sentimen
+    if sentiment == 2 or sentiment == -2:
+        score += 40
+    elif abs(sentiment) == 1:
+        score += 25
+
+    # kontribusi RSI
+    if isinstance(rsi, (int, float)):
         if rsi <= 30 or rsi >= 70:
-            score += 40
+            score += 30
         elif rsi <= 40 or rsi >= 60:
-            score += 25
+            score += 20
 
     return min(score, 100)
-
 
 def final_action(sentiment, rsi, confidence):
     rule = MODE_RULES[MODE]
@@ -300,18 +370,20 @@ def run_bot():
             emitens = extract_emitens(text)
             if not emitens:
                 emitens = ["MARKET"]
-
-            sentiment = analyze_sentiment(text)
+                
+            news_type = classify_news_type(text)
+            sentiment = analyze_sentiment_v2(text, news_type)
 
             for emiten in emitens:
                 rsi = get_rsi(emiten) if emiten != "MARKET" else None
-                conf = confidence_score(sentiment, rsi)
+                conf = confidence_score_v2(sentiment, rsi, news_type)
                 action = final_action(sentiment, rsi, conf)
 
                 message = (
                     "📰 ANALISIS BERITA + TEKNIKAL\n"
                     f"Sumber: {source}\n"
                     f"Judul: {entry.title}\n\n"
+                    f"🗂 Jenis Berita: {news_type}\n"
                     f"🏷 Emiten: {emiten}\n"
                     f"📊 Sentimen: {sentiment}\n"
                     f"📈 RSI: {rsi if rsi else 'N/A'}\n"
